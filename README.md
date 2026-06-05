@@ -1,9 +1,9 @@
-# SadarKulit - Kenali Penyakit Kulitmu dalam Sekejap
+# SadarKulit - Know your skin disease in seconds
 
-## Tim CC25-CF023
+## CC25-CF023 Team
 
-**Anggota Tim:**  
-- (ML) MC253D5Y0305 - Muhammad Naufal Rahmatullah - Universitas Mataram  
+**Member:**  
+- (ML) MC253D5Y0305 - Muhammad Naufal Rahmatullah - Universitas Mataram  (Leader)
 - (ML) MC253D5X2460 - Putu Indah Puspita Dewi - Universitas Mataram  
 - (ML) MC253D5X2467 - Anselma Kalika Kirana - Universitas Mataram  
 - (FEBE) FC253D5Y1728 - Muhammad Rizki Assamsuli - Universitas Mataram  
@@ -11,44 +11,44 @@
 
 ---
 
-## Deskripsi Proyek
+## Project Description
 
-Penyakit kulit seperti jerawat, eksim, psoriasis, dan kanker kulit sering sulit didiagnosis tanpa pemeriksaan medis langsung. Tidak semua orang memiliki akses mudah ke dokter spesialis kulit, terutama di daerah kurang terlayani. Akibatnya, banyak kasus penyakit kulit terlambat terdeteksi dan penanganannya menjadi kurang optimal.
+Skin conditions such as acne, eczema, psoriasis, and skin cancer are often difficult to diagnose without a direct medical examination. Not everyone has easy access to dermatologists, especially in underserved areas. As a result, many skin diseases are detected late and their treatment becomes less optimal.
 
-**SadarKulit** hadir sebagai solusi teknologi yang memanfaatkan computer vision dan machine learning untuk mendeteksi penyakit kulit secara dini melalui analisis gambar kulit yang diunggah pengguna. Aplikasi berbasis web ini memungkinkan pengguna mengidentifikasi potensi penyakit kulit, memahami faktor penyebab, dan mendapatkan rekomendasi penanganan awal sebelum berkonsultasi dengan tenaga medis.
+**SadarKulit** serves as a technology-based solution that leverages computer vision and machine learning to detect skin diseases at an early stage through analysis of user-uploaded skin images. This web-based application enables users to identify potential skin conditions, understand contributing factors, and obtain initial handling recommendations before consulting medical professionals.
 
 ---
 
-## Pertanyaan Penelitian
+## Defined Problem
 
-> Bagaimana cara mengembangkan website yang dapat memprediksi penyakit kulit, memberikan penjelasan tentang faktor penyebab, serta memberikan rekomendasi penanganan pertama kepada pengguna dengan memanfaatkan teknologi machine learning?
+> How can a website be developed that can predict skin diseases, provide explanations of their contributing factors, and offer users first-line treatment recommendations by leveraging machine learning technology?
 
 ---
 
 ## Fitur Utama
 
 - **Deteksi Penyakit Kulit (Skin Analyzer)**  
-  Pengguna dapat mengunggah foto kulit untuk dideteksi jenis penyakit menggunakan model machine learning.
+  Users can upload a skin image to detect the type of skin disease using a machine learning model.
 
-- **Informasi Penyakit**  
-  Memberikan penjelasan singkat tentang penyakit kulit yang terdeteksi, termasuk gejala umum dan faktor penyebab.
+- **Disease Information**  
+  Provide a brief explanation of the detected skin condition, including its common symptoms and contributing factors
 
-- **Rekomendasi Penanganan Awal**  
+- **First Treatment Recommendation**  
   Saran tindakan awal yang dapat dilakukan pengguna sebagai pencegahan atau penanganan mandiri.
 
-- **Edukasi Pengguna**  
-  Koleksi artikel dan tips perawatan kulit yang bersumber dari referensi medis terpercaya.
+- **Educate the User**  
+  A collection of skin care articles and tips sourced from trusted medical references.
 
-- **Riwayat Deteksi**  
-  Pengguna dapat melihat rekam jejak hasil deteksi sebelumnya untuk memantau kondisi kulitnya.
+- **Detection History**  
+  Users can view a history of previous detection results to monitor changes in their skin condition over time.
 
 ---
 
-## Teknologi yang Digunakan
+## Tech Used
 
 - **Backend:** Node.js, Express.js, MongoDB (Mongoose)  
 - **Frontend:** React.js, Tailwind CSS  
 - **Machine Learning:**   
-- **Autentikasi:** JSON Web Token (JWT)  
-- **Hosting & Deployment:** 
+- **Authentication:** JSON Web Token (JWT)  
+- **Hosting & Deployment: vercell** 
 
